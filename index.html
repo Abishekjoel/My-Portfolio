@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abishek Joel</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links desktop-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="navbar-right">
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Offcanvas for mobile -->
+    <div class="offcanvas" id="sidebarMenu">
+        <ul class="nav-links">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+
+        <!-- hero-section -->
+        <div class="hero-section " style="scroll-margin-top: 80px;" id="home">
+            <div class="hero-blob ">
+                <img src="imgs/profilepicblack.png" alt="Profile" class="blob-image" />
+            </div>
+
+
+
+
+
+            <div class="hero-text">
+                <div class="text1">
+                    <h1 class="bungee-inline-regular"> Hi I'am ABISHEK JOEL G.M</h1>
+                </div>
+                <div class="text2">
+                    <h1>A <span class="auto-text bungee-inline-regular"> </span></h1>
+                </div>
+                <div class="text3" style="gap: 5%; display: flex;">
+                    <button class="button-des">Downlode CV</button>
+                    <button class="button-des">Let's Talk</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- About-section -->
+
+        <div class="About-container" style="scroll-margin-top: 80px;" id="about">
+
+            <h1 style="text-align: center;">ABOUT</h1>
+
+            <div class="about">
+
+
+                <div class="about-text">
+                    <p id="txt-abt">I’m a passionate Full-Stack Developer with a keen eye for creative design. Blending
+                        technical
+                        expertise with artistic innovation, I craft visually stunning and highly functional web
+                        applications. With proficiency in front-end and back-end technologies, I transform ideas into
+                        seamless digital experiences that are both intuitive and engaging.</p>
+
+                    <div class="experience-wrapper">
+
+
+                        <div class="experience-container">
+                            <h1 style="margin: 0px;">Education</h1>
+                            <p>Bachelor of Engineering in Electrical and Electronics
+                                Mar Ephraem College of Engineering and Technology, Elavuvilai
+                                May 2020 – June 2024
+                            </p>
+
+                            <h1 style="margin: 0px;">Experience</h1>
+                            <p>Clovion Tech Solutions Pvt., Ltd. <br>
+                                05/2024 - Present <br>
+                                Full Stack Developer <br>
+                                Front-End Designer
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="about-img">
+                    <img src="imgs/profilepicblack.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- skills -->
+
+        <section class="skills" style="scroll-margin-top: 80px;" id="skills">
+            <h1 style="text-align: center;">SKILLS</h1>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="imgs/html-removebg-preview.png" alt="HTML">
+                    <span class="skill-name">HTML</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/css.png" alt="CSS">
+                    <span class="skill-name">CSS</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/bootstrap.png" alt="Bootstrap">
+                    <span class="skill-name">Bootstrap</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/js.png" alt="JavaScript">
+                    <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/react.png" alt="React">
+                    <span class="skill-name">React</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/figma.png" alt="Figma">
+                    <span class="skill-name">Figma</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/python.png" alt="Python">
+                    <span class="skill-name">Python</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/django.png" alt="Django">
+                    <span class="skill-name">Django</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/gitt.png" alt="Git" class="rounded">
+                    <span class="skill-name">Git</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/spline.png" alt="Spline">
+                    <span class="skill-name">Spline</span>
+                </div>
+                <div class="skill">
+                    <img src="imgs/canva.png" alt="Canva">
+                    <span class="skill-name">Canva</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- project-section -->
+        <div class="project-wrapper" style="scroll-margin-top: 80px;" id="projects">
+            <h1 style="text-align: center;">PROJECTS</h1>
+            <section class="projects-section">
+
+                <!-- chatbot -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/chatbot1.png" alt="Slide 1">
+                            <img src="imgs/chatbot2.png" alt="Slide 2">
+                            <img src="imgs/chatbot3.png" alt="Slide 3">
+                            <img src="imgs/chatbot4.png" alt="Slide 4">
+                            <img src="imgs/chatbot5.png" alt="Slide 5">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3>CareNova</h3>
+                        <p>CareNova is an
+                            AI-powered healthcare chatbot that provides intelligent medical assistance for humans,
+                            animals, and plants through a unified conversational platform.</p>
+                        <a href="https://github.com/Abishekjoel/CareNova" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- document auth -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/docauth1.png" alt="Slide 1">
+                            <img src="imgs/docauth2.png" alt="Slide 2">
+                            <img src="imgs/docauth3.png" alt="Slide 3">
+                            <img src="imgs/docauth4.png" alt="Slide 4">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3>VeriDocX</h3>
+                        <p>VeriDocX is a
+                            blockchain-powered document authentication system that ensures the integrity, ownership, and
+                            tamper-proof verification of digital files using smart contracts and decentralized IPFS
+                            storage.</p>
+                        <a href="https://github.com/Abishekjoel/VeriDocX" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- grocery -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/coming soon.jpg" alt="Slide 1">
+                            <img src="imgs/coming soon.jpg" alt="Slide 2">
+                            <img src="imgs/coming soon.jpg" alt="Slide 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3> Grocify</h3>
+                        <p>An intuitive online grocery platform that simplifies shopping with smart recommendations and
+                            real-time inventory.</p>
+                        <a href="https://github.com" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- fashion -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/coming soon.jpg" alt="Slide 1">
+                            <img src="imgs/coming soon.jpg" alt="Slide 2">
+                            <img src="imgs/coming soon.jpg" alt="Slide 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3>Looksy</h3>
+                        <p>A stylish platform for discovering the latest fashion trends and timeless wardrobe
+                            essentials.</p>
+                        <a href="https://github.com" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- plantweb -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/coming soon.jpg" alt="Slide 1">
+                            <img src="imgs/coming soon.jpg" alt="Slide 2">
+                            <img src="imgs/coming soon.jpg" alt="Slide 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3>ZenBonsai</h3>
+                        <p>A serene digital space to explore, nurture, and shop exquisite bonsai trees and mindful plant
+                            care.</p>
+                        <a href="https://github.com" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <!-- clg management -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/coming soon.jpg" alt="Slide 1">
+                            <img src="imgs/coming soon.jpg" alt="Slide 2">
+                            <img src="imgs/coming soon.jpg" alt="Slide 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3>Acadex</h3>
+                        <p>A streamlined academic management system to efficiently handle student records, courses, and
+                            college operations.</p>
+                        <a href="https://github.com" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <!-- color picker -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/coming soon.jpg" alt="Slide 1">
+                            <img src="imgs/coming soon.jpg" alt="Slide 2">
+                            <img src="imgs/coming soon.jpg" alt="Slide 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3>HueHunt</h3>
+                        <p>A vibrant and responsive tool to explore, pick, and experiment with colors for all your
+                            creative projects.</p>
+                        <a href="https://github.com" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+                <!-- todo -->
+                <div class="project-card">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <img src="imgs/coming soon.jpg" alt="Slide 1">
+                            <img src="imgs/coming soon.jpg" alt="Slide 2">
+                            <img src="imgs/coming soon.jpg" alt="Slide 3">
+                        </div>
+                        <button class="prev">&#10094;</button>
+                        <button class="next">&#10095;</button>
+                    </div>
+                    <div class="project-content">
+                        <h3>DoneDesk</h3>
+                        <p>A clean and powerful task management app to help you organize, track, and complete your
+                            to-dos with ease.</p>
+                        <a href="https://github.com" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+
+
+            </section>
+        </div>
+
+        <!-- contact section -->
+
+        <section class="chatss" id="contact" style="margin-top: 50px;scroll-margin-top: 80px;">
+            <div class="con" style="display: flex;justify-content: center;">
+                <h1>CONTACT</h1>
+            </div>
+
+            <div class="chat-container">
+
+                <p>Have a project in mind? Let's discuss!</p>
+                <form id="chat-form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="32e75442-af67-43d2-82aa-d9219ff8aa14">
+
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Type your message..." required></textarea>
+
+                    <button type="submit" class="send-btn">Send Message</button>
+                </form>
+
+            </div>
+
+            <div class="social">
+                <a href="www.linkedin.com/in/abishek-joel-g-m-b81549371"><i class='bx bxl-linkedin'></i></a>
+                <i class='bx bxl-instagram'></i>
+                <i class='bx bxl-whatsapp'></i>
+                <a href="https://github.com/Abishekjoel"><i class='bx bxl-github' ></i></a>
+
+            </div>
+        </section>
+
+        <!-- Floating Chat Button -->
+        <div class="chat-button animate__animated  animate__bounce " onclick="scrollToChat()">
+            Contact
+        </div>
+
+
+
+
+    </main>
+
+
+
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+
+</body>
+
+</html>
